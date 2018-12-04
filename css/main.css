@@ -36,6 +36,27 @@ IMG.imgcenter{
 .text-center{ text-align: center; }
 .list-price{ width: auto; color: black; }
 
+/*imagen de fondo area de servicios*/
+.backgroundimagen {
+	/*background: white;*/
+	background-image: url(../img/world10010.png);
+	height: 100%;
+	width: 100%;
+	z-index:1;
+}
+
+@media screen and (max-width: 2000px) {
+	.backgroundimagen {
+	zoom: 1;
+}
+}
+/*.backgroundimagen::after {
+	background-color: rgb(202, 152, 20, 0.1);
+	
+	position:absolute;
+	z-index:-1;
+}*/
+
 /*estilo de 3D Cards*/
 
 body {
@@ -58,6 +79,12 @@ a {
 
 .contenedor_tarjeta {
 	margin: 10px;
+}
+
+@media screen and (min-width: 1980px) { 
+	.contenedor_tarjeta {
+		margin: 40px;
+	}
 }
 
 .contenedor_tarjeta a {
@@ -226,6 +253,7 @@ figure .trasera p {
 	position: relative;
 	overflow: hidden;
 	height: 100%;
+	border-radius: 5px;
 }
 
 .textosobreimg {
@@ -291,8 +319,6 @@ figure .trasera p {
 	
 }
 
-
-
 #cajamadre:hover .textosobreimgx   {
 	height: 15%;
 	
@@ -324,9 +350,11 @@ figure .trasera p {
 	-o-transform : scale(1.2);        /* Opera */
 }
 
+hr {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: center;}
+;}
 /*titulo con fondo de imagen*/
 
-.fondo-imagen {
+/*.fondo-imagen {
 	padding-top: 30px;
 	margin-top: 0px;
 	margin-bottom: 20px;
@@ -357,5 +385,5 @@ figure .trasera p {
 		background-position: top right;
 	}
 	
-}
+}*/
 
