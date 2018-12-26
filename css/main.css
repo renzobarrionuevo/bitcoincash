@@ -58,7 +58,6 @@ IMG.imgcenter{
 }*/
 
 /*estilo de 3D Cards*/
-
 body {
 	background: #ffffff;
 	font-family: 'Open Sans', sans-serif;
@@ -352,6 +351,9 @@ figure .trasera p {
 
 hr {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: center;}
 ;}
+
+
+
 /*titulo con fondo de imagen*/
 
 /*.fondo-imagen {
