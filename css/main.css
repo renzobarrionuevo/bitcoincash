@@ -1,6 +1,6 @@
 /*estilo de links */
 .link { color: #fff; 
-padding-bottom: 0;
+padding-bottom: 0px;
 padding-left: 0;
 padding-right: 0;
 padding-top: 20px} /* CSS link color (white) */
@@ -92,7 +92,7 @@ a {
 
 .contenedor_tarjeta:hover figure {
 	transform: perspective(600px) rotateY(180deg);
-	/*-webkit-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);*/
+	-webkit-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);
 	-moz-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);
 	box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);
 }
@@ -135,7 +135,7 @@ figure .frontal {
 figure .trasera {
 	position: absolute;
 	top: 0;
-	padding: 20px;
+	padding: 10px;
 	color: #fff;
 	transform: perspective(600px) rotateY(180deg);
 	backface-visibility: hidden;
