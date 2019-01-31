@@ -1,0 +1,63 @@
+The best that Bitcoin can be=> Lo mejor que Bitcoin puede ser
+
+news=> Noticias Bitcoin Cash
+
+the best=> La mejor cryptomoneda
+
+history=> El 1 de Agosto de 2017 un grupo de mineros, desarrolladores, inversores y usuarios decidieron actualizar el protocolo de Bitcoin. Como la comunidad no llegó a un acuerdo unánime, los mineros se separaron de manera segura, creando una nueva versión de Bitcoin  llamada "Bitcoin Cash".<br> El libro mayor se conservó en el momento de la división, por lo que los usuarios que poseían Bitcoin antes del bloque 478,558 tambien pasaron a poseer Bitcoin Cash en igual cantidad.<br> Bitcoin Cash trae dinero sólido al mundo. Los comerciantes y los usuarios están habilitados para usarla con baja tarifa de transacción y confirmaciones confiables. El futuro brilla intensamente gracias al crecimiento sin restricciones, la adopción global, la innovación sin permisos, y el desarrollo descentralizado.
+
+aboutarea=> Bitcoin Cash <br> es la versión actualizada <br> de Bitcoin, que escala <br> como moneda global
+
+whitepaper=> Ver libro blanco
+
+connect=> Conectate a Bitcoin Cash...
+
+connect2=> Enlaces directos a los mas confiables nodos, exploradores y billeteras Bitcoin Cash.
+
+node=> Nodo
+
+node2=> Nodo Bitcoin Cash de alta performance
+
+explorer=> Explorador
+
+explorer2=> Historial actualizado de transacciones, billeteras y bloques.
+
+wallet=> Billetera
+
+wallet2=> Crea tu wallet y comenzá a recibir y enviar BCH
+
+cashservices=> Servicios Cash
+
+keoken=> Keoken es una solución de segunda capa sobre la blockchain de BCH, que involucra una cotabilidad digital y una plataforma segura de contratos inteligentes; permite transferencias de valor entre las partes, y la implementación de reglas de negocios requeridas para ejecutar la mayoría de las transacciones cotidianas.
+
+chart=> GRÁFICO
+
+chart2=> Gráfico Marketcap
+
+addressconvert=> CONVERSIÓN DE DIRECCIÓN
+
+addressconvert2=> Legacy a CashAddr
+
+exodus=> Intercambio BCH y billetera de escritorio
+
+memo=> Almacena textos en la blockchain BCH
+
+txstreet=> Visualizador de transacciones BCH en vivo
+
+aboutus=> Sobre Nosotros
+
+aboutus2=> Bitcoincash.com ofrece el servicio de promoción de productos relacionados con Bitcoincash. Queremos que nuestra comunidad se mantenga informada y con acceso a los productos más confiables y de calidad.
+
+topproducts=> Productos Top
+
+topproducts2=> Nodo Bitprim
+
+topproducts3=> Nodo BitcoinABC
+
+topproducts4=> Explorador Blockdozer
+
+topproducts5=> Billetera Copay
+
+membership=> Afiliados
+
+membership2=> Puedes confiar en nosotros. Solo enviaremos notificaciones importantes, no simple spam.
