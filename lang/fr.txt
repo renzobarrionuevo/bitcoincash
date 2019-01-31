@@ -1,0 +1,63 @@
+The best that Bitcoin can be=> Le meilleur que Bitcoin peut être
+
+news=> Nouvelles Bitcoin Cash
+
+the best=> Le meilleur <br> crypto-monnaie
+
+history=> Le 1er août 2017, un groupe de mineurs, développeurs, investisseurs et utilisateurs de Bitcoin a décidé de mettre à jour le protocole comme spécifié. Comme la communauté n’est pas parvenue à un accord unanime, les mineurs se sont séparés en toute sécurité, créant une nouvelle version de Bitcoin appelée «Bitcoin Cash». <br> Le grand livre existant au moment de la division est conservé, de sorte que les utilisateurs qui possédaient Bitcoin avant le bloc 478 558 deviennent également propriétaires de Bitcoin Cash pour un montant équivalent. <br> Bitcoin Cash apporte de l'argent solide au monde. Les commerçants et les utilisateurs bénéficient de faibles frais et de confirmations fiables. L'avenir brille de mille feux avec une croissance sans restriction, une adoption mondiale, une innovation sans autorisation et un développement décentralisé.
+
+aboutarea=> Bitcoin Cash <br> est la version mise à jour <br> de Bitcoin qui évolue en <br> tant que devise mondiale.
+
+whitepaper=> Voir le livre blanc
+
+connect=> Connectez-vous à Bitcoin Cash ...
+
+connect2=> Liens directs vers les portefeuilles les plus fiables, les nœuds, les explorateurs et Bitcoin Cash.
+
+node=> Noeud
+
+node2=> Noeuds Bitcoin Cash hautes performances
+
+explorer=> Explorateur
+
+explorer2=> Historique en direct des transactions, des portefeuilles et des blocs.
+
+wallet=> Portefeuille
+
+wallet2=> Créez votre portefeuille et commencez à recevoir et à envoyer BCH
+
+cashservices=> Services de Cash
+
+keoken=> Keoken est une solution de seconde couche sur la blockchain de BCH, qui implique une comptabilité numérique et une plate-forme sécurisée de contrats intelligents; il permet des transferts de valeur entre les parties et la mise en œuvre des règles de gestion requises pour exécuter les activités les plus courantes.
+
+chart=> GRAPHIQUE
+
+chart2=> Graphique Marketcap
+
+addressconvert=> CONVERSION D'ADRESSE
+
+addressconvert2=> Legacy tô CashAddr
+
+exodus=> BCH Exchange et portefeuille de bureau
+
+memo=> Stocker les données écrites sur la chaîne BCH
+
+txstreet=> Visualiseur de transaction en direct BCH
+
+aboutus=> à propos de nous
+
+aboutus2=> Bitcoincash.com offre le service de promotion des produits liés à Bitcoincash. Nous voulons que notre communauté reste informée et ait accès aux produits les plus fiables et de qualité.
+
+topproducts=> Top produits
+
+topproducts2=> Noeud Bitprim
+
+topproducts3=> Noeud BitcoinABC
+
+topproducts4=> Blockdozer Explorer
+
+topproducts5=> Copay Portefeuille
+
+membership=> Adhésion
+
+membership2 => Vous pouvez nous faire confiance. nous n'envoyons que des offres, pas un seul spam. 

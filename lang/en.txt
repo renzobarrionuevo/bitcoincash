@@ -1,0 +1,63 @@
+The best that Bitcoin can be=> The best that Bitcoin can be
+
+news=> Bitcoin Cash News
+
+the best=> The best cryptocurrency
+
+history=> On August 1, 2017 a group of Bitcoin miners, developers, investors and users decided to update the protocol as specified. As the community did not reach a unanimous agreement, the miners parted safely, creating a new version of Bitcoin called "Bitcoin Cash".<br> The existing ledger at the time of the division is retained, so that users who owned Bitcoin before block 478,558 also went on to own Bitcoin Cash in equal amount.<br> Bitcoin Cash brings sound money to the world.  Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.
+
+aboutarea=> Bitcoin Cash <br> is the updated version <br> of Bitcoin that scales <br> as a global currency
+
+whitepaper=> View Whitepaper
+
+connect=> Connect to Bitcoin Cash...
+
+connect2=> Direct links to the most trusted, nodes, explorers and Bitcoin Cash wallets.
+
+node=> Node
+
+node2=> High performance Bitcoin Cash nodes
+
+explorer=> Explorer
+
+explorer2=> Live history of transactions, wallets and blocks.
+
+wallet=> Wallet
+
+wallet2=> Create your wallet and start receiving and sending BCH
+
+cashservices=> Cash Services
+
+keoken=> Keoken is a second layer solution on BCH blockchain, that involves a digital accounting assets and secure smart contracts platform; it allows transfers of value between parties, and the implementation of business rules required to run most common activities.
+
+chart=> CHART
+
+chart2=> Marketcap chart
+
+addressconvert=> ADDRESS CONVERT
+
+addressconvert2=> Legacy to CashAddr
+
+exodus=> BCH Exchange and wallet desktop
+
+memo=> Store data written on BCH chain
+
+txstreet=> BCH live transaction visualizer
+
+aboutus=> About Us
+
+aboutus2=> Bitcoincash.com offers the service of promotion of Bitcoincash-related products. We want our community to stay informed and with access to the most reliable and quality products.
+					
+topproducts=> Top Products
+
+topproducts2=> Node Bitprim
+
+topproducts3=> Node BitcoinABC
+
+topproducts4=> Explorer Blockdozer
+
+topproducts5=> Wallet Copay
+
+membership=> Membership
+
+membership2=> You can trust us. we only send  offers, not a single spam. 
