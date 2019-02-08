@@ -45,12 +45,13 @@
 				          <li><a href="#feature">Feature</a></li>-->
 				          <li><a href="faq.html">FAQ</a></li>
 						  <li><a href="#services">Services</a></li>
-						  <a href="#" id="translate" data-text="English,Francés,Español" data-file="en,fr,es" data-index="1">English</a>
+						  <!--<a href="#" id="translate" data-text="English,Francés,Español" data-file="en,fr,es" data-index="1" data-toggle="tooltip" title="English - Francés - Español">English</a>
+						   -->
 	
-				          <!--<li class="menu-has-children"><a href="">Pages</a>
+				          <!--<li class="menu-has-children" id="translate"><a href="">Pages</a>
 				            <ul>
-				              <li><a href="generic.html"></a></li>
-				              <li><a href="elements.html"></a></li>
+							  <li><a href="generic.html">generic</a></li>
+				              <li><a href="elements.html">elements</a></li>
 				            </ul>
 				          </li>-->
 				        </ul>
@@ -86,15 +87,36 @@
             <section class="convert-area" id="convert">
 				<div class="container">
 					<div class="convert-wrap">
-                       <div class="row justify-content-center align-items-center flex-column pb-30">
+                       <div class="row justify-content-center align-items-center flex-column">
+							<h1 class="text-white pt-40" data-lang="news">News Service</h1>
 							
-                            <h1 class="text-white" data-lang="news">Bitcoin Cash News</h1>	
+							<div class="row justify-content-center align-items-center">
+									
+									<div class="col-lg-7 stat-right pl-5">
+									
+										<h4 class="pt-20" data-lang="">
+												Receive all the news of the <span class="text-white">Bitcoin Cash </span> <br>
+											    world through our news portal . . .
+										</h4>
+										<hr>
+										
+									</div>
+									
+									<div class="col-lg-5 stat-left">
+										<a href="https://news.bitcoincash.com" target="blank"><img class="img-fluid" src="img/News.png" alt="">
+										</a>
+									</div>
+
+									
+							</div>
+							
+						
                              
-                           <div class="link">
+                           <!--<div class="link">
 							<span class="summary"><a class= "link" href="https://bitsonline.com/bch-avalanche-amaury-sechet/" style="font-size: 20px">BCH Instant Payments on Avalanche, Forks and More With Amaury Sechet <i class="icon-arrow-right"></i></a></span>
                             <span class="summary"><a class= "link" href="https://bitsonline.com/bch-blockchain-devs-building-future/" style="font-size: 20px">Keoken: Our ‘AirFork’ Token Model Builds Transparency and Adaptability on BCH <i class="icon-arrow-right"></i></a></span>   
                             <span class="summary"><a class= "link" href="https://github.com/bitprim/bitprim/blob/master/HardFork%20announcements.md#content-for-the-hard-fork-on-november-15" style="font-size: 20px">No Time for Bear Markets! BCH, Blockchain Devs Too Busy Building the Future <i class="icon-arrow-right"></i></a></span>
-                        </div>     
+                        </div> -->    
 				        </div>
     
 					</div>
@@ -117,8 +139,9 @@
 							</p>
 						</div>
                         
-						<div class="col-lg-7 stat-left">
-							<img class="img-fluid" src="img/s1.svg" alt="">
+						<div class="col-lg-7 stat-left video-container">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/OE3QTbgh-p8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<!--<img class="img-fluid" src="img/s1.svg" alt="">-->
 						</div>
 					</div>
 				</div>	
@@ -175,23 +198,7 @@
 										</div>
 									</div>
 									<div class="contenedor">
-											<div class="contenedor_tarjeta">
-													<h2 data-lang="node">Node</h2>
-													<a href="https://bitprim.github.io/docfx/content/user_guide/installation.html" target="blank"><figure id="tarjeta">
-														<img src="img/node.jpg" class="frontal" alt="">
-														<figcaption class="trasera">
-															<h2 class="titulo" data-lang="node2">High performance Bitcoin Cash nodes</h2>
-															<hr>
-															<div style="padding-top: 25px">
-															<img src="img/Bitprim.png" height="85px" alt="">
-															
-															<img src="img/bitcoinabclogo.png" height="35px" alt="">
-															</div>
-														</figcaption>
-													</figure>
-													</a>
-											</div>
-									
+																				
 											<div class="contenedor_tarjeta">
 													<h2 data-lang="explorer">Explorer</h2>
 												
@@ -234,7 +241,21 @@
 													</figure>
 													</a>
 											</div>
-										
+											<div class="contenedor_tarjeta">
+													<h2 data-lang="node">Exchange</h2>
+													<a href="exchange.html" target="blank"><figure id="tarjeta">
+														<img src="img/exchange.jpg" class="frontal" alt="">
+														<figcaption class="trasera">
+															<h2 class="titulo" data-lang="node2">Buy, sell and change Bitcoin Cash</h2>
+															<hr>
+															<div style="padding-top: 25px">
+															<img src="img/exchange-logo.png" alt="">
+															
+															</div>
+														</figcaption>
+													</figure>
+													</a>
+											</div>
 									</div>
 							
 								</div>	
@@ -243,7 +264,7 @@
 						<div class="container">
 								<div class="row">
 									<div class="col-sm-12 col-md-12 col-lg-12"> <!--fondo-imagen2-->
-										<h1 data-lang="cashservices">Cash Services</h1>	
+										<h1 data-lang="cashservices">Bitcoin Cash Services</h1>	
 										<hr>
 									
 									</div>
@@ -325,7 +346,35 @@
 										</div>	
 									</div>
 							</div>		
-							
+							<br>
+							<div class="row">
+									<div class="col-sm-4 col-md-4 col-lg-4">
+										<div id="cajamadre">
+											<a href="https://bitpay.com/" target="blank">
+												<img src="img/bitpay.jpg" class="imagen-size-small img-responsive" alt="">
+												<div class="textosobreimg3"><h4 style=" background-color: white ">BITPAY</h4><p data-lang="">Wallet and explorer BCH</p></div>
+											</a>				
+										</div>
+									</div>
+
+									<div class="col-sm-4 col-lg-4">
+										<div id="cajamadre">
+											<a href="https://cointext.io/en/" target="blank">
+												<img src="img/cointext.jpg" style="border:1px solid black" class="imagen-size-small img-responsive" alt="">
+												<div class="textosobreimg3"><h4 style=" background-color: white ">COINTEXT</h4><p data-lang="">BCH sending by text message</p></div>
+											</a>
+										</div>
+									</div>
+
+									<div class="col-sm-4 col-lg-4">
+										<div id="cajamadre">
+											<a href="https://txhighway.com/#" target="blank">
+												<img src="img/highway.jpg" class="imagen-size-small img-responsive" alt="">
+												<div class="textosobreimg3"><h4 style=" background-color: white ">HIGHWAY</h4><p data-lang="">BCH live transaction visualizer </p></div>
+											</a>
+										</div>	
+									</div>
+							</div>		
 						</div>
 						<br>
 									
@@ -340,7 +389,7 @@
 									<li><b><img src="img/copay-logo-png-transparent.png" height="20px" alt=""></b></li>
 
 								</ul>
-							<a class="twitter-timeline" data-width="100%" data-height="1250" data-theme="dark" data-link-color="#FAB81E" data-chrome="noheader noscrollbar" href="https://twitter.com/BitcoinCash?ref_src=twsrc%5Etfw">Twetts BitcoinCash</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							<a class="twitter-timeline" data-width="100%" data-height="1300" data-theme="dark" data-link-color="#FAB81E" data-chrome="noheader noscrollbar" href="https://twitter.com/BitcoinCash?ref_src=twsrc%5Etfw">Twetts BitcoinCash</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 							
 						</div>
 
