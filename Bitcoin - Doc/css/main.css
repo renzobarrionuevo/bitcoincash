@@ -103,7 +103,7 @@ section p {
 
 .left-sidebar {
     background-color: #222;
-    float: left;
+    float: right;
     min-height: 100%;
     position: fixed;
     width: 18%;
