@@ -122,17 +122,16 @@
 					</div>
 					<div class="row justify-content-center align-items-center">
 						
-						<div class="col-lg-7 col-sm-5 stat-left" style="height:100%">
+						<div class="col-lg-7 col-sm-5 stat-left" >
 									<!-- TradingView Widget BEGIN -->
 									<div class="tradingview-widget-container">
-											<div id="tradingview_320b3"></div>
+											<div id="tradingview_320b3" style="height:100%"></div>
 											<div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/COINBASE-BCHUSD/" rel="noopener" target="_blank"><span class="blue-text"></span></a></div>
 											<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
 											<script type="text/javascript">
 											new TradingView.widget(
 											{
-											"width": 600,
-											"height": 450,
+											"autosize": true,
 											"symbol": "COINBASE:BCHUSD",
 											"interval": "D",
 											"timezone": "Etc/UTC",
@@ -148,15 +147,18 @@
 										}
 											);
 											</script>
-										</div>
+									</div>
 										<!-- TradingView Widget END -->
 						</div>
 						<div class="col-lg-3 col-sm-5 stat-right">
 							
 							<p class="pt-20 pb-20 justify-text">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+								
 								</p>
-							<a href="#" class="primary-btn header-btn text-uppercase">View Details</a>
+							<div class="pt-2">
+								<a href="#" class="primary-btn header-btn text-uppercase">View Details</a>
+							</div>
 						</div>
 					</div>
 				</div>	
