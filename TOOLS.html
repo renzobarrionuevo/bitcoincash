@@ -34,6 +34,20 @@
 			<link rel="stylesheet" href="css/owl.carousel.css">
 			<link rel="stylesheet" href="css/main.css">
 		</head>
+		<script>
+			function validate(entrada){
+				var result = '';
+				try{
+				if(bchaddr.isLegacyAddress(entrada))
+					result = bchaddr.toCashAddress(entrada);
+				else if(bchaddr.isCashAddress(entrada))
+					result = bchaddr.toLegacyAddress(entrada);
+				} catch (e) {
+					result = "Not a valid address";
+				}
+				document.getElementById('result').innerHTML = result;
+			}
+		</script>
 		<body>
 
 				<header id="header" id="home">
@@ -165,9 +179,10 @@
 									
 									<div>
 										<FORM name="validacion" action="" method="POST" target="resultado">
-											<INPUT style="border-radius:25px; padding-left: 10px" type="text" size="60" name="entrada" maxlength="140">        
+											<INPUT style="border-radius:25px; padding-left: 10px" type="text" size="55" name="entrada" maxlength="140">
 											
-											<INPUT class="primary-btn6" type="button" value="send!" onClick="validate(entrada)">
+											<INPUT class="primary-btn6" type="button" value="send!" onClick="validate(entrada.value)">
+											<div class="pt-3" id="result"></div>
 												
 									 	</FORM>
 									</div>
@@ -330,7 +345,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			<script src="js/jquery.nice-select.min.js"></script>			
 			<script src="js/parallax.min.js"></script>	
 			<script src="js/waypoints.min.js"></script>
-			<script src="js/jquery.counterup.min.js"></script>			
+			<script src="js/jquery.counterup.min.js"></script>
+			<script src="js/bchaddrjs-0.3.0.min.js"></script>
 			<script src="js/mail-script.js"></script>	
 			<script src="js/main.js"></script>	
 		</body>
