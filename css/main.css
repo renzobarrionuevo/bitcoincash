@@ -37,21 +37,31 @@ img:hover{filter: alpha(opacity=80); moz-opacity:.80; opacity:.80}
 	margin-right: auto;
   }
 
-/*conversion tools input*/  
+/*conversion tools input*/ 
 .input-convert {
 	border-radius:25px; padding-left: 10px;
 	margin-right: 25px;
 	width: 500px;
-	
   }
+
+  .input-bottom {
+	  width: 
+  }
+
   @media screen and (max-width: 500px) {
 	.input-convert {
 	width: 400px;
+	}
+	.input-bottom {
+		width: 400px;
 	}
   }
   @media screen and (max-width: 400px) {
 	.input-convert {
 	width: 300px;
+	}
+	.input-bottom {
+		width: 300px;
 	}
   }
 
