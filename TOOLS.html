@@ -1,391 +1,416 @@
 <!DOCTYPE html>
-	<html lang="zxx" class="no-js" lang="en">
-			
-	<head>
-		<!-- Mobile Specific Meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!-- Favicon-->
-		<link rel="shortcut icon" href="img/fav.png">
-		<!-- Author Meta -->
-		<meta name="author" content="codepixer">
-		<!-- Meta Description -->
-		<meta name="description" content="">
-		<!-- Meta Keyword -->
-		<meta name="keywords" content="">
-		<!-- meta character set -->
-		<meta charset="UTF-8">
-		<!-- Site Title -->
-		<title>Bitcoin Cash</title>
+<html lang="zxx" class="no-js" lang="en">
 
-		<link href="https://fonts.googleapis.com/css?family=Quicksand:100,200,400,300,500,600,700" rel="stylesheet"> 
-		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet">
-		
-		<!--<link href="https://fonts.googleapis.com/css?family=Archivo:100,200,400,300,500,600,700|Open+Sans:300" rel="stylesheet">
-		-->	
-		<!--
+<head>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="img/fav.png">
+	<!-- Author Meta -->
+	<meta name="author" content="codepixer">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>Bitcoin Cash</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:100,200,400,300,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet">
+
+	<!--<link href="https://fonts.googleapis.com/css?family=Archivo:100,200,400,300,500,600,700|Open+Sans:300" rel="stylesheet">
+		-->
+	<!--
 			CSS
 			============================================= -->
-			<link rel="stylesheet" href="css/linearicons.css">
-			<link rel="stylesheet" href="css/font-awesome.min.css">
-			<link rel="stylesheet" href="css/bootstrap.css">
-			<link rel="stylesheet" href="css/magnific-popup.css">
-			<link rel="stylesheet" href="css/nice-select.css">					
-			<link rel="stylesheet" href="css/animate.min.css">
-			<link rel="stylesheet" href="css/owl.carousel.css">
-			<link rel="stylesheet" href="css/main.css">
-		</head>
-		<script>
-			function validate(entrada){
-				var result = '';
-				try{
-				if(bchaddr.isLegacyAddress(entrada))
-					result = bchaddr.toCashAddress(entrada);
-				else if(bchaddr.isCashAddress(entrada))
-					result = bchaddr.toLegacyAddress(entrada);
-				} catch (e) {
-					result = "Not a valid address";
-				}
-				document.getElementById('result').innerHTML = result;
-			}
-		</script>
-		<body>
+	<link rel="stylesheet" href="css/linearicons.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<script>
+	function validate(entrada) {
+		var result = '';
+		try {
+			if (bchaddr.isLegacyAddress(entrada))
+				result = bchaddr.toCashAddress(entrada);
+			else if (bchaddr.isCashAddress(entrada))
+				result = bchaddr.toLegacyAddress(entrada);
+		} catch (e) {
+			result = "Not a valid address";
+		}
+		document.getElementById('result').innerHTML = result;
+	}
+</script>
 
-				<header id="header" id="home">
-						<div class="container">
-							<div class="row align-items-center justify-content-between d-flex">
-							  <div id="logo">
-								<a href="index.html"><img style="height: 50px" src="img/bitcoin-cash-logo-flag-small.png" alt="" title="" /></a>
-							  </div>
-							  <nav id="nav-menu-container">
-								<ul class="nav-menu">
-								  <li class="menu-active"><a href="index.html">HOME</a></li>
-								  <li class="menu-active"><a href="https://news.bitcoincash.com">NEWS</a></li>
-								  <li class="menu-active"><a href="LEARN.html">LEARN</a></li>
-								  <li class="menu-active"><a href="#">USE</a></li>
-								  <li class="menu-active"><a href="BUSSINESS.html">BUSINESS</a></li>
-								  <li class="menu-active"><a href="TOOLS.html">TOOLS</a></li>
-								  <!--<li><a href="faq.html">FAQ</a></li>-->
-								 
-								  <!--<a href="#" id="translate" data-text="English,Francés,Español" data-file="en,fr,es" data-index="1" data-toggle="tooltip" title="English - Francés - Español">English</a>
+<body>
+
+	<header id="header" id="home">
+		<div class="container">
+			<div class="row align-items-center justify-content-between d-flex">
+				<div id="logo">
+					<a href="index.html"><img style="height: 50px" src="img/bitcoin-cash-logo-flag-small.png" alt=""
+							title="" /></a>
+				</div>
+				<nav id="nav-menu-container">
+					<ul class="nav-menu">
+						<li class="menu-active"><a href="index.html">HOME</a></li>
+						<li class="menu-active"><a href="https://news.bitcoincash.com">NEWS</a></li>
+						<li class="menu-active"><a href="https://learn.bitcoincash.com">LEARN</a></li>
+						<li class="menu-active"><a href="https://use.bitcoincash.com">USE</a></li>
+						<li class="menu-active"><a href="https://business.bitcoincash.com">BUSINESS</a></li>
+						<li class="menu-active"><a href="TOOLS.html">TOOLS</a></li>
+						<!--<li><a href="faq.html">FAQ</a></li>-->
+
+						<!--<a href="#" id="translate" data-text="English,Francés,Español" data-file="en,fr,es" data-index="1" data-toggle="tooltip" title="English - Francés - Español">English</a>
 								   -->
-			
-								  <!--<li class="menu-has-children" id="translate"><a href="">Pages</a>
+
+						<!--<li class="menu-has-children" id="translate"><a href="">Pages</a>
 									<ul>
 									  <li><a href="generic.html">generic</a></li>
 									  <li><a href="elements.html">elements</a></li>
 									</ul>
 								  </li>-->
-								</ul>
-							  </nav><!-- #nav-menu-container -->		    		
-							</div>
-						</div>
-					  </header><!-- #header -->
+					</ul>
+				</nav><!-- #nav-menu-container -->
+			</div>
+		</div>
+	</header><!-- #header -->
 
-			<!-- start banner Area -->
-		
-			<section class="banner-area relative" id="home">
-				<div class="overlay overlay-bg"></div>		
-				<div class="container">
-					<div class="row fullscreen2">
-						
-					</div>
-				</div>
-			</section>
-		 	<!-- End banner Area -->	
+	<!-- start banner Area -->
 
-			<section class="simple-services-area section-gap">
-					<div class="container">
-						<div class="row justify-content-center align-items-center">
-							<div class="col-lg-10 stat-right">
-								<h1 data-lang="the best">Useful Tools</h1>
-									<h4 class="pt-20 pb-20 justify-text" data-lang="">
-										Miscellaneous useful tools and links for Bitcoin Cash users	
-									</h4>
-							<!--	<div style="padding-top: 10px">
+	<section class="banner-area relative" id="home">
+		<div class="overlay overlay-bg"></div>
+		<div class="container">
+			<div class="row fullscreen2">
+
+			</div>
+		</div>
+	</section>
+	<!-- End banner Area -->
+
+	<section class="simple-services-area section-gap">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-10 stat-right">
+					<h1 data-lang="the best">Useful Tools</h1>
+					<h4 class="pt-20 pb-20 justify-text" data-lang="">
+						Miscellaneous useful tools and links for Bitcoin Cash users
+					</h4>
+					<!--	<div style="padding-top: 10px">
 										<a href="doc/bitcoin.pdf" class="primary-btn header-btn text-uppercase" data-lang="whitepaper">View Whitepaper</a>
 								</div>
 							-->
-							</div>
-							
-							
-						</div>
-					</div>	
-			</section>
-			
-			<!-- Start stat Area -->
-			<a name="historical"></a>
-			<section class="stat-area section-gap" style="padding-top: 100px">
-				<div class="container">
-						
-					<div class="pb-5">
-						<h2 align="center">Historical and Statistical Information</h2>
-					</div>
-					<div class="row justify-content-center align-items-center">
-						
-						<div class="col-lg-7 col-sm-5 stat-left" >
-									<!-- TradingView Widget BEGIN -->
-									<div class="tradingview-widget-container">
-											<div id="tradingview_320b3" style="height:115%"></div>
-											<div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/COINBASE-BCHUSD/" rel="noopener" target="_blank"><span class="blue-text"></span></a></div>
-											<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-											<script type="text/javascript">
-											new TradingView.widget(
-											{
-											"autosize": true,
-											"symbol": "COINBASE:BCHUSD",
-											"interval": "D",
-											"timezone": "Etc/UTC",
-											"theme": "Light",
-											"style": "1",
-											"locale": "en",
-											"toolbar_bg": "#f1f3f6",
-											"enable_publishing": false,
-											"hide_top_toolbar": true,
-											"hide_legend": true,
-											"save_image": false,
-											"container_id": "tradingview_320b3"
-										}
-											);
-											</script>
-									</div>
-										<!-- TradingView Widget END -->
-						</div>
-						<div class="col-lg-3 col-sm-5 stat-right">
-							
-							<p class="pt-5 pb-20 justify-text">
-									Since even before its formal inception Bitcoin Cash has been following the vision to create sound money. Currently, in the Bitcoin Cash community, there are thousand merchants who accept Bitcoin Cash, around 18 million Bitcoin Cash addresses created and almost 1400 Bitcoin Cash meetups worldwide. Bitcoin Cash's consensus protocol has led us to reach 86% of the money supply and 3200% more block capacity.
+				</div>
 
-								</p>
-							<div class="pt-2">
-								<a href=" https://www.investing.com/crypto/bitcoin-cash/historical-data" target="blank" class="primary-btn header-btn text-uppercase">View Details</a>
-							</div>
-						</div>
-					</div>
-				</div>	
-			</section>
 
-			<!-- End stat Area -->
-			<a name="conversion"></a>
-			<section  class="simple-services-area section-gap" style="padding-top: 100px">
-					<div class="container">
-					<div class="row justify-content-center align-items-center">
-					<div class="col-lg-10">
-									<h2 data-lang="">Conversion Tool</h2>
-					
-						<div class="row justify-content-center align-items-start pt-10">
-								<div class="col-lg-9 stat-right">
-										
-										<p class=" justify-text" data-lang="">
-											Bitcoin Cash address format is called CashAddr and it has been designed to facilitate Bitcoin Cash user experience and bring clarity at the time of transactions. From a technical perspective it uses a different encoding and visually it contrasts with legacy addresses. From a functional point of view it works the same.
-											<br>
-											CashAddr format is encouraged throughout the entire Bitcoin Cash community. For more information  visit<a style="color:#f6a722" href="https://www.bitcoinabc.org/2018-01-14-CashAddr/" target="blank"> CashAddr </a>
-										</p>
-										<p class="pb-20 justify-text" data-lang="">Enter a Bitcoin Cash address below to convert it into either CashAddr format or Legacy format.
-										</p>
-									
-									<div>
-										<FORM name="validacion" action="" method="POST" target="resultado">
-											<INPUT class="input-convert" type="text" name="entrada" maxlength="140" tabindex="-1">
-											
-											<INPUT class="primary-btn6 input-bottom" type="button" value="send" onClick="validate(entrada.value)" tabindex="-1">
-											
-											<div class="pt-3" id="result"></div>
-											
-												
-									 	</FORM>
-									</div>
-								</div>
-									
-								<div class="col-lg-3 pt-3" >
-											<img style="opacity: 1; -moz-opacity: 1; filter: alpha(opacity=100)" class="img-fluid" src="img/conversion.png" alt="">
-								</div>
-						</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Start stat Area -->
+	<a name="historical"></a>
+	<section class="stat-area section-gap" style="padding-top: 100px">
+		<div class="container">
+
+			<div class="pb-5">
+				<h2 align="center">Historical and Statistical Information</h2>
+			</div>
+			<div class="row justify-content-center align-items-center">
+
+				<div class="col-lg-7 col-sm-5 stat-left">
+					<!-- TradingView Widget BEGIN -->
+					<div class="tradingview-widget-container">
+						<div id="tradingview_320b3" style="height:115%"></div>
+						<div class="tradingview-widget-copyright"><a
+								href="https://www.tradingview.com/symbols/COINBASE-BCHUSD/" rel="noopener"
+								target="_blank"><span class="blue-text"></span></a></div>
+						<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+						<script type="text/javascript">
+							new TradingView.widget({
+								"autosize": true,
+								"symbol": "COINBASE:BCHUSD",
+								"interval": "D",
+								"timezone": "Etc/UTC",
+								"theme": "Light",
+								"style": "1",
+								"locale": "en",
+								"toolbar_bg": "#f1f3f6",
+								"enable_publishing": false,
+								"hide_top_toolbar": true,
+								"hide_legend": true,
+								"save_image": false,
+								"container_id": "tradingview_320b3"
+							});
+						</script>
 					</div>
-					
-				</div>		
-			</section>
-			
-			
-			<!-- Start callaction Area -->
-			<section class="callaction-area section-gap">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-lg-9">
-							<h2 class="text-white pb-4">Largest Transactions</h2>
-							<p class="text-white pb-4">
-								Are you curious about recent largest Bitcoin Cash transactions worldwide?
-Bitcoin Cash network is transparent and its information can be visualized by anyone.
-	
+					<!-- TradingView Widget END -->
+				</div>
+				<div class="col-lg-3 col-sm-5 stat-right">
+
+					<p class="pt-5 pb-20 justify-text">
+						Since even before its formal inception Bitcoin Cash has been following the vision to create
+						sound money. Currently, in the Bitcoin Cash community, there are thousand merchants who accept
+						Bitcoin Cash, around 18 million Bitcoin Cash addresses created and almost 1400 Bitcoin Cash
+						meetups worldwide. Bitcoin Cash's consensus protocol has led us to reach 86% of the money supply
+						and 3200% more block capacity.
+
+					</p>
+					<div class="pt-2">
+						<a href=" https://www.investing.com/crypto/bitcoin-cash/historical-data" target="blank"
+							class="primary-btn header-btn text-uppercase">View Details</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- End stat Area -->
+	<a name="conversion"></a>
+	<section class="simple-services-area section-gap" style="padding-top: 100px">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-10">
+					<h2 data-lang="">Conversion Tool</h2>
+
+					<div class="row justify-content-center align-items-start pt-10">
+						<div class="col-lg-9 stat-right">
+
+							<p class=" justify-text" data-lang="">
+								Bitcoin Cash address format is called CashAddr and it has been designed to facilitate
+								Bitcoin Cash user experience and bring clarity at the time of transactions. From a
+								technical perspective it uses a different encoding and visually it contrasts with legacy
+								addresses. From a functional point of view it works the same.
+								<br>
+								CashAddr format is encouraged throughout the entire Bitcoin Cash community. For more
+								information visit<a style="color:#f6a722"
+									href="https://www.bitcoinabc.org/2018-01-14-CashAddr/" target="blank"> CashAddr </a>
 							</p>
-							<a href="https://blockchair.com/bitcoin-cash/transactions?q=time(2019-01-30..2019-03-01)&s=fee_usd(desc)#" target="blank" class="primary-btn">Check!</a>							
+							<p class="pb-20 justify-text" data-lang="">Enter a Bitcoin Cash address below to convert it
+								into either CashAddr format or Legacy format.
+							</p>
+
+							<div>
+								<FORM name="validacion" action="" method="POST" target="resultado">
+									<INPUT class="input-convert" type="text" name="entrada" maxlength="140"
+										tabindex="-1">
+
+									<INPUT class="primary-btn6 input-bottom" type="button" value="send"
+										onClick="validate(entrada.value)" tabindex="-1">
+
+									<div class="pt-3" id="result"></div>
+
+
+								</FORM>
+							</div>
+						</div>
+
+						<div class="col-lg-3 pt-3">
+							<img style="opacity: 1; -moz-opacity: 1; filter: alpha(opacity=100)" class="img-fluid"
+								src="img/conversion.png" alt="">
 						</div>
 					</div>
 				</div>
-				
-			</section>
-			<!-- End callaction Area -->
-			<a  name="explorer"></a>	
-					
-			
-			<section style="padding-top: 100px" class="service-area section-gap" id="feature">
-					<div class="container">
-						<div class="row d-flex justify-content-center">
-							<div class="col-md-10 pb-15"><!--fondo-imagen-->
-								<h2 data-lang="connect">Block Explorers</h2>
-								<br>
-								
-								<p data-lang="connect2 justify-text">
-										Block Explorers are online tools to look up information on the blockchain. These information include checking the transactions, balances of addresses, individual blocks information, transaction histories and more. You can use this to confirm receipt of a payment without even looking at your actual Bitcoin Cash wallet.
-										
-										</p>
-								<br>
-							
-										<div class="row">
-												<div class="col-sm-4 col-md-4 col-lg-4 pb-4">
-													<div id="cajamadre">
-														<a href="https://blockdozer.com" target="blank">
-															<img src="img/explorer-blockdozer.png" class="border imagen-size-small img-responsive" alt="">
-																													
-														</a>
-														<p class="pt-3 justify-text">Blockdozer Explorer is one of the main Bitcoin Cash explorer and is known to be a reliable source for looking up the blockchain information.
-															</p>				
-													</div>
-												</div>
-												<div class="col-sm-4 col-lg-4 pb-4">
-														<div id="cajamadre">
-															<a href="https://explorer.bitcoin.com/bch" target="blank">
-																<img src="img/explorer-bitcoincom.png" class="border imagen-size-small img-responsive" alt="">
-																											
-															</a>
-															<p class="pt-3 justify-text">Bitcoin.com Explorer is an easy to use Bitcoin Cash explorer and are known to be one of the biggest Bitcoin Cash supporters in the space.</p>
-															
-														</div>
-														
-															
-												</div>
-												
 
-												<div class="col-sm-4 col-lg-4 pb-4">
-													<div id="cajamadre">
-														<a href="https://blockchair.com/bitcoin-cash" target="blank">
-															<img src="img/explorer-blockchair.png" class="border imagen-size-small img-responsive" alt="">
-														</a>
-														<p class="pt-3 justify-text">Blockchair Explorer contains lots of comprehensive information and links about the Bitcoin Cash blockchain.</p>
-													</div>	
-												</div>
-
-												
-										</div>
-							</div>										
-						</div>
-					</div>	
-			</section>
+			</div>
+	</section>
 
 
-			<!-- start footer Area -->		
-							
-			<footer class="footer-area section-gap-footer">
-			
-					<div class="container">
-								
-							<div class="row">
-			
-								<div class="col-lg-5  col-md-6 col-sm-6">
-									<div class="single-footer-widget">
-										<h4 class="text-white" data-lang="">About BitcoinCash.com</h4>
-										<p style="padding-right:25px" data-lang="aboutus2">
-											This  website is owned and operated for the explicit purpose of promoting the use of Bitcoin Cash as the world's Peer-2-Peer Electronic Currency.	
-										</p>
-										<div >
-												<img align="left"  style="height: 100px; opacity: 1; -moz-opacity: 1; filter: alpha(opacity=100)" src="img/BitcoinCashDOTCOM.png" alt="">
-											</div>
-									</div>
-								</div>
-		
-								<div class="col-lg-3  col-md-6 col-sm-6">
-									<div class="single-footer-widget">
-										<h4 class="text-white" data-lang="">&nbsp;</h4>
-										
-										<ul class="footer-menu">
-											<li><a href="#" target="blank" data-lang=""> &bull; Media and Graphics</a></li>
-											<li><a href="#" target="blank" data-lang=""> &bull; Get Listed</a></li>
-											<li><a href="#" target="blank" data-lang=""> &bull; Get featured</a></li>
-											<li><a href="#" target="blank" data-lang=""> &bull; Press Releases</a></li>
-											<li><a href="#" target="blank" data-lang=""> &bull; Legal Disclaimer</a></li>
-											<li><a href="#" target="blank" data-lang=""> &bull; Privacy Stratement</a></li>
-										</ul>
-											
-									</div>
-								</div>						
-								<div class="col-lg-4  col-md-6 col-sm-6">
-									<div class="single-footer-widget">
-										<h4 class="text-white" data-lang="">&nbsp;</h4>
-										<p data-lang=""> Contact Us &nbsp;<a href="#" style="color:#f88845">Here</a></p>
-										
-		
-										<h4 class="text-white" data-lang="membership"></h4>
-										<p data-lang="">Keep up to date on Bitcoin Cash developments. We will not provide your email to any third party &nbsp;<a href="#" style="color:#f88845">Sing Up</a></p>
-										
-		
-										<!--<div class="d-flex flex-row" id="mc_embed_signup">
-											  <form class="navbar-form" novalidate="true" action="https://bitcoincash.us19.list-manage.com/subscribe/post?u=8f799979540e07d907fd427a2&amp;id=c58ccd1fa1" method="get">
-												<div class="input-group add-on">
-													  <input class="form-control" name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required="" type="email">
-													<div style="position: absolute; left: -5000px;">
-														<input name="b_8f799979540e07d907fd427a2_c58ccd1fa1" tabindex="-1" value="" type="text">
-													</div>
-												  <div class="input-group-btn">
-													<button class="genric-btn"><span class="lnr lnr-arrow-right"></span></button>
-												  </div>
-												</div>
-												  <div class="info mt-20"></div>									    
-											  </form>
-										</div>-->
-		
-										<p data-lang=""> Become a BitcoinCash.com member &nbsp;<a href="#" style="color:#f88845">Today</a></p>
-		
-									</div>
-								</div>						
-							</div>
-							<div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
-								<p class="footer-text m-0">
-										© bitcoincash.com, 2019
-									
+	<!-- Start callaction Area -->
+	<section class="callaction-area section-gap">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-9">
+					<h2 class="text-white pb-4">Largest Transactions</h2>
+					<p class="text-white pb-4">
+						Are you curious about recent largest Bitcoin Cash transactions worldwide?
+						Bitcoin Cash network is transparent and its information can be visualized by anyone.
+
+					</p>
+					<a href="https://blockchair.com/bitcoin-cash/transactions?q=time(2019-01-30..2019-03-01)&s=fee_usd(desc)#"
+						target="blank" class="primary-btn">Check!</a>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<!-- End callaction Area -->
+	<a name="explorer"></a>
+
+
+	<section style="padding-top: 100px" class="service-area section-gap" id="feature">
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="col-md-10 pb-15">
+					<!--fondo-imagen-->
+					<h2 data-lang="connect">Block Explorers</h2>
+					<br>
+
+					<p data-lang="connect2 justify-text">
+						Block Explorers are online tools to look up information on the blockchain. These information
+						include checking the transactions, balances of addresses, individual blocks information,
+						transaction histories and more. You can use this to confirm receipt of a payment without even
+						looking at your actual Bitcoin Cash wallet.
+
+					</p>
+					<br>
+
+					<div class="row">
+						<div class="col-sm-4 col-md-4 col-lg-4 pb-4">
+							<div id="cajamadre">
+								<a href="https://blockdozer.com" target="blank">
+									<img src="img/explorer-blockdozer.png"
+										class="border imagen-size-small img-responsive" alt="">
+
+								</a>
+								<p class="pt-3 justify-text">Blockdozer Explorer is one of the main Bitcoin Cash
+									explorer and is known to be a reliable source for looking up the blockchain
+									information.
 								</p>
-								<div class="footer-social d-flex align-items-center">
-									<!--<a href="#"><i class="fa fa-facebook"></i></a>-->
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<!--<a href="#"><i class="fa fa-dribbble"></i></a>-->
-									<!--<a href="#"><i class="fa fa-behance"></i></a>-->
-								</div>
 							</div>
+						</div>
+						<div class="col-sm-4 col-lg-4 pb-4">
+							<div id="cajamadre">
+								<a href="https://explorer.bitcoin.com/bch" target="blank">
+									<img src="img/explorer-bitcoincom.png"
+										class="border imagen-size-small img-responsive" alt="">
+
+								</a>
+								<p class="pt-3 justify-text">Bitcoin.com Explorer is an easy to use Bitcoin Cash
+									explorer and are known to be one of the biggest Bitcoin Cash supporters in the
+									space.</p>
+
+							</div>
+
+
+						</div>
+
+
+						<div class="col-sm-4 col-lg-4 pb-4">
+							<div id="cajamadre">
+								<a href="https://blockchair.com/bitcoin-cash" target="blank">
+									<img src="img/explorer-blockchair.png"
+										class="border imagen-size-small img-responsive" alt="">
+								</a>
+								<p class="pt-3 justify-text">Blockchair Explorer contains lots of comprehensive
+									information and links about the Bitcoin Cash blockchain.</p>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- start footer Area -->
+
+	<footer class="footer-area section-gap-footer">
+
+		<div class="container">
+
+			<div class="row color-letter-footer">
+				<div class="col-lg-5  col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<h4 class="text-white" data-lang="">About BitcoinCash.com</h4>
+						<p style="padding-right:25px" data-lang="aboutus2">
+							This website is owned and operated for the explicit purpose of promoting the use of Bitcoin
+							Cash as the world's Peer-2-Peer Electronic Currency.
+						</p>
+						<div>
+							<img align="left"
+								style="height: 100px; opacity: 1; -moz-opacity: 1; filter: alpha(opacity=100)"
+								src="img/BitcoinCashDOTCOM.png" alt="">
 						</div>
 					</div>
 				</div>
-			</footer>	
-							
-			<!-- End footer Area -->
 
-			<script src="js/vendor/jquery-2.2.4.min.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-			<script src="js/vendor/bootstrap.min.js"></script>			
-			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-  			<script src="js/easing.min.js"></script>			
-			<script src="js/hoverIntent.js"></script>
-			<script src="js/superfish.min.js"></script>	
-			<script src="js/jquery.ajaxchimp.min.js"></script>
-			<script src="js/jquery.magnific-popup.min.js"></script>	
-			<script src="js/owl.carousel.min.js"></script>			
-			<script src="js/jquery.sticky.js"></script>
-			<script src="js/jquery.nice-select.min.js"></script>			
-			<script src="js/parallax.min.js"></script>	
-			<script src="js/waypoints.min.js"></script>
-			<script src="js/jquery.counterup.min.js"></script>
-			<script src="js/bchaddrjs-0.3.0.min.js"></script>
-			<script src="js/mail-script.js"></script>	
-			<script src="js/main.js"></script>	
-		</body>
-	</html>
+				<div class="col-lg-3  col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<h4 class="text-white" data-lang="">&nbsp;</h4>
 
+						<ul class="footer-menu">
+							<li><a href="https://learn.bitcoincash.com/media-and-graphics" target="blank" data-lang="">
+									&bull; Media and Graphics</a></li>
+							<li><a href="https://learn.bitcoincash.com/get-listed" target="blank" data-lang=""> &bull;
+									Get Listed</a></li>
+							<li><a href="https://learn.bitcoincash.com/get-featured" target="blank" data-lang="">
+									&bull; Get featured</a></li>
+							<li><a href="https://learn.bitcoincash.com/press-releases" target="blank" data-lang="">
+									&bull; Press Releases</a></li>
+							<li><a href="https://learn.bitcoincash.com/legal-disclaimer" target="blank" data-lang="">
+									&bull; Legal Disclaimer</a></li>
+							<li><a href="https://learn.bitcoincash.com/privacy-statement" target="blank" data-lang="">
+									&bull; Privacy Statement</a></li>
+						</ul>
 
+					</div>
+				</div>
+				<div class="col-lg-4  col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<h4 class="text-white" data-lang="">&nbsp;</h4>
+						<p data-lang=""> Contact Us &nbsp;<a href="https://learn.bitcoincash.com/contact"
+								style="color:#f88845">Here</a></p>
 
+						<h4 class="text-white" data-lang="membership"></h4>
+						<p data-lang="">Keep up to date on Bitcoin Cash developments. We will not provide your email to
+							any third party &nbsp;<a href="https://learn.bitcoincash.com/newsletter"
+								style="color:#f88845">Sing Up</a></p>
+
+						<p data-lang=""> Become a BitcoinCash.com member &nbsp;<a
+								href="https://learn.bitcoincash.com/membership" style="color:#f88845">Today</a></p>
+
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
+				<p class="footer-text m-0">
+					© bitcoincash.com, 2019
+
+				</p>
+				<div class="footer-social d-flex align-items-center">
+					<!--<a href="#"><i class="fa fa-facebook"></i></a>-->
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<!--<a href="#"><i class="fa fa-dribbble"></i></a>-->
+					<!--<a href="#"><i class="fa fa-behance"></i></a>-->
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+	</footer>
+
+	<!-- End footer Area -->
+
+	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+	</script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script type="text/javascript"
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="js/easing.min.js"></script>
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/bchaddrjs-0.3.0.min.js"></script>
+	<script src="js/mail-script.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
