@@ -1,3 +1,7 @@
+strong {
+	color: black; font-weight: bold;
+}
+
 /*estilo de links */
 .link { color: #222; 
 padding-bottom: 0px;
@@ -82,7 +86,7 @@ img:hover{filter: alpha(opacity=80); moz-opacity:.80; opacity:.80}
 
   .primary-btn6{line-height:30px;padding-left:30px;padding-right:60px;border-radius:25px;border: none; color:#fff;display:inline-block;font-weight:500;position:relative; background-image:-moz-linear-gradient(0deg, #f3c400 0%, #f88845 100%);background-image:-webkit-linear-gradient(0deg, #f3c400 0%, #f88845 100%);background-image:-ms-linear-gradient(0deg, #f3c400 0%, #f88845 100%);color:#fff;text-transform:capitalize;padding-left:30px;padding-right:30px;border:1px solid #fff;-webkit-transition:all 0.3s ease 0s;-moz-transition:all 0.3s ease 0s;-o-transition:all 0.3s ease 0s;transition:all 0.3s ease 0s}.primary-btn6:hover{background:transparent;border:1px solid #f78f3d;color:#f78f3d}
 
-  .primary-btn7{line-height:30px;padding-left:30px;padding-right:60px;border-radius:25px;border:  black; color:#fff;display:inline-block;font-weight:500;position:relative; background: white ;color:#fff;text-transform:capitalize;padding-left:30px;padding-right:30px;border:1px solid #black;-webkit-transition:all 0.3s ease 0s;-moz-transition:all 0.3s ease 0s;-o-transition:all 0.3s ease 0s;transition:all 0.3s ease 0s}.primary-btn7:hover{background:transparent;border:1px solid #f78f3d;color:#f78f3d}
+  .primary-btn7{line-height:30px;padding-left:30px;padding-right:60px;border-radius:25px;border:  black; color:#fff;display:inline-block;font-weight:500;position:relative; background: white ;color:#fff;text-transform:capitalize;padding-left:30px;padding-right:30px;border:1px solid black;-webkit-transition:all 0.3s ease 0s;-moz-transition:all 0.3s ease 0s;-o-transition:all 0.3s ease 0s;transition:all 0.3s ease 0s}.primary-btn7:hover{background:transparent;border:1px solid #f78f3d;color:#f78f3d}
 
   
 
@@ -523,7 +527,7 @@ hr {border: 0.5px solid #666; border-radius: 300px/10px; height: 0px; text-align
 		border: 1px solid #bbb;
 		border-radius: 0px 0px 0px 0px;
 		padding: 15px;
-		width: 600px;
+		width: 800px;
 		text-align: left;
 		box-shadow: 1px 3px 3px #cccccc;
 		margin: 0 auto;
